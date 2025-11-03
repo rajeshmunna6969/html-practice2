@@ -1,0 +1,11 @@
+body {
+  background-color: lightblue;
+}
+h1 {
+  color: navy;
+  font-size: 32px;
+}
+p {
+  color: red;
+  font-size: 18px;
+}     
