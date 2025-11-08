@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+    <style>
+        #pageTitle {
+            color: blue;
+        }   
+        .title {
+            color: red;
+            font-style: italic;
+        }
+    </style>
+    <body>
+        <h1 id="pageTitle" class="title">welcome</h1>
+        <h1 id="pageTitle"> </h1><p> hi to see my name click button</p>
+        <button onclick="changeTitle()"> change text</button>
+        <script>
+            function changeTitle() {
+                document.getElementById("pageTitle").innerHTML = "RAJESh!";
+            }
+        </script>
+    </body>
+</html>
